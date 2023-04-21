@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
   },
   "author": "Prince Chukwu, McDonald Musimwa, Katru Arnol Sujan",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "express": "^4.18.2",
     "mongodb": "^5.3.0",
     "mongoose": "^7.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

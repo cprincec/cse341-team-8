@@ -1,10 +1,10 @@
-const express = require('express')
-const controller = require('../controller')
+// const express = require('express')
+// const controller = require('../controller')
 
-const routes =  express.Router();
+// const routes =  express.Router();
 
-routes.get("/",controller.getData)
+// routes.get("/",controller.getData)
 
 
 
-module.exports=routes;
+// module.exports=routes;
