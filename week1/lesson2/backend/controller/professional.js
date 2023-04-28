@@ -2,7 +2,6 @@ const mongodb = require('../db/connect')
 const Double = mongodb.Double;
 const data = require('../professional.json');
 
-
 // This function simplifies the number of text I have to write 
 // when interacting with mongodb.
 // It saves me from having to type something like this:
